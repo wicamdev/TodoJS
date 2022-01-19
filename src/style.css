@@ -1,0 +1,61 @@
+
+.buttonE{
+    display: flex;
+    align-items: center;
+}
+
+#tableInfo  {
+    text-align: end;
+    
+}
+#tableInfo th  {
+    text-align: end;
+    color: #d8b642;
+    
+}
+
+
+#tableInfo th:nth-child(1) {
+    text-align: initial;
+    
+
+}
+    
+#tableInfo td:nth-child(1) {
+    text-align: initial;
+}
+#tableInfo tr:hover{
+    color:skyblue;
+    background-color: #796114;
+}
+#tareaRealizada {
+margin-top: 15px;
+}
+
+
+#tareaRealizada th{
+
+    margin-top: 3rem;
+    color: #d8b642;
+    text-align: initial;
+}
+
+#tareaRealizada th:last-child{
+  text-align: end;
+}
+#tareaRealizada td:last-child{
+text-align: end
+}
+#tareaRealizada td:first-child{
+    text-decoration-line:red ;
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+
+#tareaRealizada tr:hover{
+    color:skyblue;
+    background-color: #796114;
+    
+}

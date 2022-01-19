@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+    <title>To -Do by CapDev</title>
+</head>
+<body class="bg-gray-900 m-2 text-gray-200	align-content: center;">
+        <div class="container flex flex-col ">
+
+            <header class="flex justify-center content-center">
+                <h1 class="text-blue-500 text-2xl mb-8">
+                    ✔✔Tus Tareas Diarias ✔✔
+                </h1>
+                
+            </header>
+            
+            <form action="" id="toDoList" clas>
+                <div class="form flex items-center  justify-center flex-col">
+                    <input type="text" required id="tarea"
+                    placeholder="Escribe Aqui Tu Tarea" 
+                    name="nombreTarea"    class="bg-gray-500  md: w-full  placeholder-gray-300  text-center  lowercase  p-1  rounded" >
+                    <label  for="tarea"></label>  
+                    <button  id="enviaTarea" class="  text-center  w-24 h-6  border border-yellow-500  px-5 my-3 rounded hover:bg-blue-700" >añadir</button>
+                </div>
+            </form>
+            <!--creamos la tabla en la que vamos a poner nuestra info.-->
+            <table id="tableInfo" >
+                <th>Tus Tarea para Hoy</th>
+                <th>Realizada</th>
+                <th>Eliminar</th>
+                <tr> </tr>
+            </table>
+            <table id="tareaRealizada">
+                <th class="">Tus Logros de Hoy 😃😎</th>
+                <th class="">Borrar</th>
+                
+                   
+                <tr></tr>
+            </table>
+            <div class="infoedit text-yellow-700  flex  sm: flex-col sm:m-20 ">
+                <li>Click en ↘ para completar tarea</li>
+                <li>Doble click en ⛔ para eliminar  </li>
+            </div>
+            
+            
+            <div class=" flex  justify-end ">
+                <button class=" text-gray-900  border w-24 border-yellow-500 my-4  rounded    hover:bg-red-700 hover:text-white " >wica.dev</button>
+            </div>
+            <script src="/src/main.js"></script>
+        </div>
+    </body>
+</html>
